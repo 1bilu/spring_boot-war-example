@@ -23,7 +23,20 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return "5. please visit my website learning-ocean.com";
+        return "Hi, I'm Bilal khan
+A DevOps Engineer with expertise in building and maintaining scalable and efficient infrastructures.
+
+About Me
+I am a DevOps Engineer with a passion for building, testing, and maintaining efficient and scalable infrastructures. With experience in various DevOps tools, I am committed to delivering the best service and support for my clients.
+
+Skills
+Cloud Providers: AWS, Azure, GCP
+Automation Tools: Terraform, CloudFormation, Ansible, Packer
+CI/CD Tools: Jenkins, CircleCI, TravisCI, GitHub Actions
+Databases: MySQL, MongoDB, PostgreSQL, DynamoDB
+Containerization: Docker, Kubernetes, Docker Swarm
+Scripting: Bash, Python, Ruby, PowerShell
+Monitoring and Logging: Grafana, Prometheus, ELK, CloudWatch ";
     }
 
 }
